@@ -1,0 +1,124 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+    /* background-image: url(https://images.hdqwalls.com/download/graph-web-abstract-4k-hn-1920x1080.jpg) ; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(35deg, #97408e 0%, rgb(162 162 221) 50%,#97408e 100%);
+    /* background: linear-gradient(135deg, #cbcbcb 40%, rgb(162 162 221) 100%); */
+}
+
+
+form {
+    height: 590px;
+    width: 380px;
+    /* background: rgb(173, 132, 83); */
+    border: 3px outset rgb(162 162 221);
+    border-radius: 10px;
+    /* background: rgb(0 0 0 / 40%); */
+    box-shadow: 15px 15px 15px -20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 2.1rem;
+    font-family: system-ui;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+
+.inputfield {
+  max-width: 330px;
+  width: 100%;
+  background-color: #f0f0f0;
+  margin: 10px 0;
+  height: 55px;
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: 15% 85%;
+  padding: 0 0.4rem;
+  position: relative;
+  box-shadow: -5px -5px 20px -15px;
+  border: 2px inset #adadad;
+}
+.inputfield i {
+    text-align: center;
+    line-height: 55px;
+    color: #555555;
+    transition: 0.5s;
+    font-size: 1.1rem;
+  }
+  
+.inputfield input {
+    background: none;
+    outline: none;
+    border: none;
+    line-height: 1;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+.inputfield input::placeholder {
+    color: #555555;
+    /* font-weight: 500; */
+  }
+
+.submitbtn {
+  width: 150px;
+  /* background-color: #fc8019; */
+  background: #282828;
+  border: none;
+  outline: none;
+  padding: 15px;
+  border-radius: 15px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.submitbtn:hover{
+  background: #000000;
+  transition: 0.5s;
+}
+
+.social-text {
+  padding: 0.7rem 0;
+  font-size: 1.3rem;
+  /* color: #ffffff; */
+  font-family: system-ui;
+  font-weight: 500;
+  /* text-shadow: 2px 2px black; */
+  /* text-decoration: underline; */
+  text-align: center;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icon {
+  height: 46px;
+  width: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0.45rem;
+  color: #000000;
+  border-radius: 25%;
+  border: 2px solid #595959;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: 0.3s;
+
+}
