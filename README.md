@@ -1,10 +1,10 @@
 Login and Signup Page - Frontend Project
 ### Signup Page
 
-![App Screenshot](./Snaps/Screenshot(39).png)
+![App Screenshot](./Snaps/Screenshot%20(39).png)
 -
 
 ### Signin Page
 
-![App Screenshot](./Snaps/Screenshot(40).png)
+![App Screenshot](./Snaps/Screenshot%20(40).png)
 
