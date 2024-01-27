@@ -122,3 +122,14 @@ form {
   transition: 0.3s;
 
 }
+/* Add this rule to rotate the form */
+.rotate-form {
+  transform: rotateY(180deg);
+  transition: transform 1s ease-in-out;
+}
+
+/* Add this rule to reset the rotation on the body */
+/* body.rotate-body {
+  transform: rotateY(0deg);
+  transition: transform 1s ease-in-out;
+} */
