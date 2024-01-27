@@ -14,6 +14,6 @@
             // Redirect to the sign-up page after the rotation effect
             setTimeout(function () {
                 window.location.href = Link.href;
-            }, 800); // Adjust the timeout based on your transition duration
+            }, 700); // Adjust the timeout based on your transition duration
         });
     });
